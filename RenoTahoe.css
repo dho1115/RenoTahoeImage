@@ -1,8 +1,24 @@
 
 
+html {
+    height: 100%;
+}
+
 body {
     background-image: url("RenoArch.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-}
+    filter: alpha(opacity=50);
+} 
+
+h1 {
+    color: whitesmoke;
+} 
+
+div {
+    width: 200px;
+    height: 200px;
+    display: block;
+    position: relative;
+  }
